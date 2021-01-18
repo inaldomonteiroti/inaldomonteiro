@@ -27,8 +27,6 @@ $jsonBody['id'] = time();
     $json[$path[0]][] = $jsonBody;
     echo json_encode($jsonBody);
     file_put_contents('db.json', json_encode($json));
-
-
 }
 
 ?>
