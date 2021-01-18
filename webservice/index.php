@@ -3,7 +3,7 @@
 $path = explode('/', $_GET['path']); // O que vier pela url eu quebro na barra
 $contents = file_get_contents('db.json'); // carrega banco
 
-$json = json_decode($contents);
+$json = json_decode($contents, true);
 
 $method = $_SERVER['REQUEST_METHOD'];
 
