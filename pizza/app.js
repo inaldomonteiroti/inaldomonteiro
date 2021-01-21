@@ -3,6 +3,8 @@ var botoesIncrementa = document.querySelectorAll(".btn-incrementa");
 
 for(let botao of botoesIncrementa)
 {
+    console.log(botao);
+
     botao.addEventListener('click', incrementa);
 
     function incrementa()
@@ -25,8 +27,10 @@ var botoesDecrementa = document.querySelectorAll(".btn-decrementa");
 
 for(let botao of botoesDecrementa)
 {
+    console.log(botao);
+
     botao.addEventListener('click', decrementa);
-    
+
     function decrementa(){
         var item = botao.closest('.item');
 
