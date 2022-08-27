@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html lang="en">
@@ -808,44 +807,3 @@
 </html>
 
 
-=======
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<div id="url"></div>
-
-<body>
-    <script>
-
-        
-            async function getContent(){
-                try {
-                    alert("Entrei dentro do try");
-                    const response = await fetch('https://api.adviceslip.com/advice').then();
-                    const data = await response.json();
-                    console.log(data);
-
-                    document.getElementById('url').innerHTML = data[slip];
-                    
-            
-                } catch (error) {
-                     console.error(error)
-                    }                
-                }
-                
-                getContent()
-
-            
-
-           
-            
-    </script>
-</body>
-</html>
->>>>>>> 163c44d3d18612ff2ac55d5e1b244e61cd073ebd
