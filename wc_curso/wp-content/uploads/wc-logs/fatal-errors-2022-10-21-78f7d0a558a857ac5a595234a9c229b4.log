@@ -1,0 +1,12 @@
+2022-10-21T22:26:52+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\wc_curso/wp-content/themes/fancy-lab/inc/wc-modifications.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\wc_curso\wp-content\themes\fancy-lab\functions.php, na linha 53
+
+2022-10-21T22:33:12+00:00 CRITICAL Uncaught Error: Call to undefined function addfilter() in C:\xampp\htdocs\wc_curso\wp-content\themes\fancy-lab\functions.php:86
+Stack trace:
+#0 C:\xampp\htdocs\wc_curso\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\wc_curso\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wc_curso\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wc_curso\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wc_curso\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown, em C:\xampp\htdocs\wc_curso\wp-content\themes\fancy-lab\functions.php, na linha 86
+

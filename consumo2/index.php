@@ -14,9 +14,11 @@
 <?php
 $url = "http://makeup-api.herokuapp.com/api/v1/products.json";
 $produtos = json_decode(file_get_contents($url));
-echo json_encode($produtos[0]);
+//var_dump($produtos[0]);
+//echo json_encode($produtos[0]);
 
 // echo "</br>";
+// echo "<img src=".$produtos[0]->image_link.""." width="."20%.".">";
 // echo "</br>";
 // echo json_encode($produtos[0]->id);
 // echo "</br>";
@@ -65,9 +67,9 @@ foreach ($produtos as $key => $value){
     </script> -->
 
     <script type="text/javascript">
-      $.get( "http://makeup-api.herokuapp.com/api/v1/products.json", function( data ) {
-      console.log(data);
-      $("#resultado").append(JSON.stringify(data[0]));                                             });
+      // $.get( "http://makeup-api.herokuapp.com/api/v1/products.json", function( data ) {
+      // //console.log(data);
+      // $("#resultado").append(JSON.stringify(data[0]));                                             });
   </script>
 </body>
 </html>

@@ -1,0 +1,4 @@
+2022-10-25T12:49:16+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file, em C:\xampp\htdocs\wc_curso\wp-content\themes\fancy-lab\template-home.php, na linha 115
+
+2022-10-25T12:49:28+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file, em C:\xampp\htdocs\wc_curso\wp-content\themes\fancy-lab\template-home.php, na linha 114
+
